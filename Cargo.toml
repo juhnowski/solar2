@@ -1,0 +1,11 @@
+[package]
+name = "solar2"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+gtk4 = "0.7"
+spa = "0.5.1"
+chrono = { version = "0.4", features = ["serde"] }
+glib = "0.18"
+gdk-pixbuf = "0.18"
